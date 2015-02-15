@@ -8,6 +8,7 @@ grails {
         databaseName = "ssb"
     }
 }
+
 dataSource {
     pooled = true
     jmxExport = true
