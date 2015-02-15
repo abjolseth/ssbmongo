@@ -1,3 +1,13 @@
+
+grails {
+    mongo {
+        host = "localhost"
+        port = 27017
+        username = "ssb"
+        password = "ssb1"
+        databaseName = "ssb"
+    }
+}
 dataSource {
     pooled = true
     jmxExport = true
